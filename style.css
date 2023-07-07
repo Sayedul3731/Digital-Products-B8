@@ -3,11 +3,14 @@
     padding: 0px;
 }
 .manu-container{
-    background-color: gray;
+    background-color: rgb(26, 25, 25);
     padding: 20px;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+.logo-photo{
+    width: 170px;
 }
 .menus{
     color: white;
@@ -17,4 +20,40 @@
 .item{
     margin: 10px;
     padding: 10px;
+    font-size: 26px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.item:hover{
+    color: green;
+}
+.benner-img{
+    width: 300px;
+}
+.banner-container{
+    height: 100vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: white;
+    background-image: url("./images/background.png"),
+    linear-gradient(45deg,#111010,#161313);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.title{
+    font-size: 55px;
+    font-weight: bold;
+}
+.para{
+    font-size: 18px;
+    margin: 15px 0px;
+}
+.btn{
+    border: none;
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border-radius: 5px;
 }
