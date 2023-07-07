@@ -99,6 +99,41 @@ h2{
     padding: 15px;
 }
 .section{
-    background-color: black;
-    height: 70vh;
+    background-color: rgb(10, 10, 10);
+    height: 50vh;
+}
+.geekfolio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+p,address,h3,h6{
+    color: white;
+    
+}
+.footer-div{
+    margin: 140px 0px;
+}
+.last-logo-photo{
+    width: 170px;
+    color: white;
+    margin: 15px 20px;
+    padding: 5px;
+}
+h3{
+    font-size: 40px;
+}
+h6{
+    font-size: 20px;
+    margin: 15px 0px;
+}
+h5{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    
+}
+.footer{
+    background-color: rgb(8, 8, 8);
+    height: 10vh;
 }
